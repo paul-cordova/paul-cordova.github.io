@@ -8,6 +8,8 @@ header{
 }
 
 nav{
+    display: flex;
+    justify-content: space-evenly;
     background-color: rgb(171, 241, 243);
     text-align: center;
 }
@@ -40,3 +42,4 @@ p{
     height: 30px;
     text-align: center;
 }
+
