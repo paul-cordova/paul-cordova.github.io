@@ -1,0 +1,72 @@
+header{
+    background-color:rgb(170, 170, 154);
+}
+
+
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 125%;
+    background-color: rgb(252, 230, 172);
+    padding:15px;
+}
+
+body p{
+    padding:15px;
+    
+}
+.pages{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    
+}
+
+#current{
+    text-transform: uppercase;
+    font-weight: bold;
+    color:crimson;
+}
+
+nav{
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    
+}
+
+header img{
+    width: 10%;
+    margin-top: 30px;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-bottom: 20px;
+}
+
+main{
+    background-color:rgb(238, 255, 2);
+}
+
+footer{
+    background-color:rgb(170, 170, 154);
+    text-align: center;
+    font-size: 80%;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns: 25% 25%;
+    justify-content: center;
+
+}
+
+.gallery img{
+    margin: 15px;
+    padding: 15px;
+    width:100px;
+}
