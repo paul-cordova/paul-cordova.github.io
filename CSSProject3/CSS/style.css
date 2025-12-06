@@ -141,6 +141,15 @@ body{
 .about img{
     width: 980px;
     justify-content: center;
+    border: 2px solid rgb(88, 88, 88);
+    border-radius: 10px;
+    
+}
+
+.about img:hover{
+    scale: 1.05;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.5s ease-out;
 }
 
 .about p{
@@ -188,3 +197,4 @@ footer div{
 .skip:focus{
     transform: translateY(0);
 }
+
